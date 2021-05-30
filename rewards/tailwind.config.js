@@ -5,19 +5,26 @@ module.exports = {
     extend: {
       inset: {
         "-16": "-4rem",
+        // 5: "19px",
+        65: "270px",
+        73: "500px",
         101: "150px",
         102: "410px",
         103: "217px",
         104: "270px",
-        105: "350px",
-        cof: "185px",
+        105: "390px",
+        106: "332px",
+        107: "21px",
       },
       blur: {
         xs: "2px",
       },
+      backgroundImage: (theme) => ({
+        "hero-svg": "url(./Images/Mwaura-LewisAsset 5.svg)",
+      }),
     },
     fontFamily: {
-      poppins: ["Poppins"],
+      poppins: ["Montserrat"],
     },
     height: {
       xxl: "1186px",
