@@ -12,6 +12,9 @@ import Layer from "../Images/Layer 2.png";
 import Logo from "../Images/rewardadz-blue.svg";
 import Chat from "../Images/Iconly-Two-tone-Chat.svg";
 import Help from "../Images/Iconly-Two-tone-Calling.svg";
+import Path1 from "../Images/Path 2539.svg";
+import Path2 from "../Images/Path 2553.svg";
+import Path3 from "../Images/Path 2541.svg";
 
 const Content = () => {
   return (
@@ -30,8 +33,9 @@ const Content = () => {
             praesentium eius, ea cum autem sequi?
           </p>
         </div>
-        <div className=" -mt-20 mr-32">
-          <img src={Blob} alt="" />
+        <div className="relative -mt-24 mr-32">
+          <img src={Blob} alt="Blob" />
+          <img src={Path1} alt="path" className="absolute right-72" />
         </div>
         <img src={Player} alt="" className="absolute -top-56 -left-12" />
       </div>
@@ -52,8 +56,9 @@ const Content = () => {
             praesentium eius, ea cum autem sequi?
           </p>
         </div>
-        <div className=" -mt-40 ml-24">
-          <img src={Blob} alt="" />
+        <div className="relative -mt-44 ml-24">
+          <img src={Blob} alt="blob" />
+          <img src={Path2} alt="path" className="absolute left-72" />
         </div>
         <img src={Museum} alt="" className="absolute -top-80 right-12" />
       </div>
@@ -74,17 +79,18 @@ const Content = () => {
             praesentium eius, ea cum autem sequi?
           </p>
         </div>
-        <div className=" -mt-20 mr-32">
-          <img src={Blob} alt="" />
+        <div className="relative -mt-20 mr-32">
+          <img src={Blob} alt="blob" className="z-10" />
+          <img src={Path3} alt="path" className="absolute right-64 z-0" />
         </div>
-        <img src={Player} alt="" className="absolute -top-56 left-72" />
+        <img src={Player} alt="" className="absolute -top-80 left-80" />
       </div>
 
       {/* End of the Third Instruction */}
 
       {/* Beginning of the Fourth Instruction */}
 
-      <div className="relative flex flex-row-reverse justify-between mt-96 pt-32">
+      <div className="relative flex flex-row-reverse justify-between mt-60 pt-32">
         <div className="max-w-2xl mr-40">
           <h1 className="font-poppins font-bold text-blue-secondary text-xl max-w-sm pb-8">
             Downlaod, watch or listen to ads and make money
@@ -96,18 +102,31 @@ const Content = () => {
             praesentium eius, ea cum autem sequi?
           </p>
         </div>
-        <div className=" -mt-16 ml-24">
-          <img src={Blob} alt="" />
+        <div className="relative -mt-16 ml-24">
+          <img src={Blob} alt="" className="z-10" />
         </div>
-        <img src={Notifications} alt="" className="absolute -top-80 right-12" />
-        <img src={Cola} alt="" className="absolute -bottom-96 right-64" />
+        <img
+          src={Notifications}
+          alt=""
+          className="absolute -top-40 right-60 w-80"
+        />
+        <img
+          src={Cola}
+          alt="blob"
+          className="absolute -bottom-96 right-64 z-10"
+        />
+        <img
+          src={Path2}
+          alt="path"
+          className="absolute -bottom-3/4 right-24 z-0"
+        />
       </div>
 
       {/* End of the Fourth Instruction */}
 
       {/* Beginning of the Wind Down */}
 
-      <div className="w-11/12 mt-96 flex mx-auto">
+      <div className="w-11/12 mt-96 flex mx-auto z-10 pt-20">
         <div>
           <img src={ArtBoard} alt="" />
         </div>
@@ -124,7 +143,7 @@ const Content = () => {
           <h1 className="font-Mont font-bold text-3xl pb-8">
             Get the RewardAdz app
           </h1>
-          <p className="max-w-sm font-Mont text-sm tracking-wide pb-8">
+          <p className="max-w-sm font-Mont text-sm tracking-normal pb-8">
             Just like everyone, we all want to make extra money to help us save
             more by using less. You are a step away from making upto $100.00 a
             day from just watching advertisements
