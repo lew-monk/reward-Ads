@@ -5,7 +5,7 @@ import Message from "./components/Message";
 
 function App() {
   return (
-    <div className="App w-screen">
+    <div className="App ">
       {/* Start of the Banner section */}
 
       <div className="banner min-h-screen bg-hero-svg bg-no-repeat w-screen ">

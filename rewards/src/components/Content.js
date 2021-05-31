@@ -9,6 +9,9 @@ import Cola from "../Images/Group 474.png";
 import ArtBoard from "../Images/Artboard 1.png";
 import Hands from "../Images/image-from-rawpixel-id-2051914-png.png";
 import Layer from "../Images/Layer 2.png";
+import Logo from "../Images/rewardadz-blue.svg";
+import Chat from "../Images/Iconly-Two-tone-Chat.svg";
+import Help from "../Images/Iconly-Two-tone-Calling.svg";
 
 const Content = () => {
   return (
@@ -113,27 +116,111 @@ const Content = () => {
       {/* End  of the Wind Down */}
 
       {/* Beginning of the Call to Action */}
-      <div className="relative bg-wound w-11/12 mx-auto mt-24 flex ">
+      <div className="relative bg-wound w-11/12 mx-auto mt-40 flex ">
         <div>
-          <img src={Hands} alt="Hands" className="max-h-80 w-auto" />
+          <img src={Hands} alt="Hands" className="max-h-96 w-auto" />
         </div>
-        <div className="pl-24 mt-16">
+        <div className="pl-24 mt-28">
           <h1 className="font-Mont font-bold text-3xl pb-8">
             Get the RewardAdz app
           </h1>
-          <p className="max-w-md font-Mont text-sm tracking-wide pb-8">
+          <p className="max-w-sm font-Mont text-sm tracking-wide pb-8">
             Just like everyone, we all want to make extra money to help us save
             more by using less. You are a step away from making upto $100.00 a
             day from just watching advertisements
           </p>
-          <img
-            src={Layer}
-            alt="Google Play Button"
-            className="h-8 w-auto pb-8"
-          />
+          <img src={Layer} alt="Google Play Button" className="h-8 w-32 pb-8" />
         </div>
+        <img
+          src={Player}
+          alt="Player Button"
+          className="absolute -top-20 right-16"
+        />
       </div>
       {/* End of the Call to Action */}
+
+      {/* Beginning of the Footer */}
+
+      <div className="flex mt-40 ml-12">
+        {/* Beginning of first column of Footer */}
+
+        <div className="pl-12 mr-40">
+          <div className="pb-12">
+            <img src={Logo} alt="Logo" />
+          </div>
+          <div className="pb-6 max-w-4">
+            <img src={Layer} alt="Logo" className="w-28" />
+          </div>
+          <div className="flex pb-6 items-center">
+            <div className="w-8 h-8 bg-blue-main rounded-full">
+              <img src={Help} alt="Logo" className="w-full h-full p-2" />
+            </div>
+            <div className="pl-4">
+              <p className="font-Mont font-bold">Help Center</p>
+            </div>
+          </div>
+          <div className="flex pb-12 items-center">
+            <div className="w-8 h-8 bg-blue-main rounded-full">
+              <img src={Chat} alt="Logo" className="w-full h-full p-2" />
+            </div>
+            <div className="pl-4">
+              <p className="font-Mont font-bold">Language English</p>
+            </div>
+          </div>
+        </div>
+
+        {/* End of first column of Footer */}
+
+        {/* Beginning of the Second Column */}
+
+        <div className="flex flex-col mr-40">
+          <div className="p-4">
+            <h1 className="font-poppins font-bold">About Us</h1>
+          </div>
+          <div className="p-4">
+            <p className="font-Monte">Community</p>
+          </div>
+          <div className="p-4">
+            <p className="font-Monte">Countries</p>
+          </div>
+          <div className="p-4">
+            <p className="font-Monte">Careers</p>
+          </div>
+          <div className="p-4">
+            <p className="font-Monte">Press</p>
+          </div>
+          <div className="p-4">
+            <p className="font-Monte">Blog</p>
+          </div>
+          <div className="p-4">
+            <p className="font-Monte">Contacts</p>
+          </div>
+          <div className="p-4">
+            <p className="font-Monte">Privacy Policy</p>
+          </div>
+          <div className="p-4">
+            <p className="font-Monte">Terms of Service</p>
+          </div>
+        </div>
+
+        {/* End of the Second Column */}
+        {/* Beginnig of the third column of the Footer */}
+
+        <div className="flex flex-col">
+          <div>
+            <h1 className="font-poppins font-bold p-4">Our Products</h1>
+          </div>
+          <div>
+            <p className="font-Monte p-4">RewardAdz Publishers</p>
+          </div>
+          <div>
+            <p className="font-Monte p-4">RewardAdz Market</p>
+          </div>
+        </div>
+
+        {/* End of the third column of the Footer */}
+      </div>
+      {/* End of the Footer */}
     </div>
   );
 };
