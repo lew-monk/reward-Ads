@@ -22,9 +22,15 @@ module.exports = {
       backgroundImage: (theme) => ({
         "hero-svg": "url(./Images/Mwaura-LewisAsset 5.svg)",
       }),
+      backgroundColor: (theme) => ({
+        ...theme("colors"),
+        ctaBg: "#03153D",
+        wound: "#DCE2F1",
+      }),
     },
     fontFamily: {
-      poppins: ["Montserrat"],
+      poppins: ["Poppins"],
+      Mont: ["Montserrat"],
     },
     height: {
       xxl: "1186px",
@@ -32,6 +38,7 @@ module.exports = {
     colors: {
       blue: {
         main: "#002A96",
+        secondary: "#03153D",
       },
       primary: "#fff",
     },

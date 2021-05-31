@@ -62,12 +62,12 @@ const Banner = () => {
       {/* Beginning of the Call to Action Section */}
       <div className="cta ml-36 pt-52">
         <div className="text-gray-200 pb-4">
-          <h1 className="text-primary  text-3xl font-poppins font-bold">
+          <h1 className="text-primary  text-3xl font-Mont font-bold">
             Let the Ad-venture Begin
           </h1>
         </div>
         <div>
-          <p className="text-primary max-w-lg pb-6 font-poppins text-base">
+          <p className="text-primary max-w-lg pb-6 font-Mont text-base">
             Download, watch or listen to ads and make extra money for every
             adventure you complete
           </p>
