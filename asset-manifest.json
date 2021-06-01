@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/reward-Ads/static/css/main.21e9f08f.chunk.css",
-    "main.js": "/reward-Ads/static/js/main.21e0ec1f.chunk.js",
-    "main.js.map": "/reward-Ads/static/js/main.21e0ec1f.chunk.js.map",
+    "main.css": "/reward-Ads/static/css/main.79f66069.chunk.css",
+    "main.js": "/reward-Ads/static/js/main.ec269954.chunk.js",
+    "main.js.map": "/reward-Ads/static/js/main.ec269954.chunk.js.map",
     "runtime-main.js": "/reward-Ads/static/js/runtime-main.6d943616.js",
     "runtime-main.js.map": "/reward-Ads/static/js/runtime-main.6d943616.js.map",
     "static/js/2.b7d7b668.chunk.js": "/reward-Ads/static/js/2.b7d7b668.chunk.js",
     "static/js/2.b7d7b668.chunk.js.map": "/reward-Ads/static/js/2.b7d7b668.chunk.js.map",
     "index.html": "/reward-Ads/index.html",
-    "static/css/main.21e9f08f.chunk.css.map": "/reward-Ads/static/css/main.21e9f08f.chunk.css.map",
+    "static/css/main.79f66069.chunk.css.map": "/reward-Ads/static/css/main.79f66069.chunk.css.map",
     "static/js/2.b7d7b668.chunk.js.LICENSE.txt": "/reward-Ads/static/js/2.b7d7b668.chunk.js.LICENSE.txt",
     "static/media/Artboard 1.18f63dd8.png": "/reward-Ads/static/media/Artboard 1.18f63dd8.png",
     "static/media/Group 1.d3a67b2f.png": "/reward-Ads/static/media/Group 1.d3a67b2f.png",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.6d943616.js",
     "static/js/2.b7d7b668.chunk.js",
-    "static/css/main.21e9f08f.chunk.css",
-    "static/js/main.21e0ec1f.chunk.js"
+    "static/css/main.79f66069.chunk.css",
+    "static/js/main.ec269954.chunk.js"
   ]
 }
