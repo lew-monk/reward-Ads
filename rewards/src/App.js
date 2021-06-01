@@ -1,6 +1,7 @@
 //Local imports
 import Banner from "./components/Banner";
 import Content from "./components/Content";
+import Footer from "./components/Footer";
 import Message from "./components/Message";
 
 function App() {
@@ -26,6 +27,12 @@ function App() {
         <Content />
       </div>
       {/* End of the Content Section */}
+
+      {/* Start of the Footer Section */}
+      <div className="content mt-24 pb-12">
+        <Footer />
+      </div>
+      {/* End of the Footer Section */}
     </div>
   );
 }
