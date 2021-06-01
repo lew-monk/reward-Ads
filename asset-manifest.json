@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/reward-Ads/static/css/main.79f66069.chunk.css",
-    "main.js": "/reward-Ads/static/js/main.ec269954.chunk.js",
-    "main.js.map": "/reward-Ads/static/js/main.ec269954.chunk.js.map",
+    "main.css": "/reward-Ads/static/css/main.5f39dc95.chunk.css",
+    "main.js": "/reward-Ads/static/js/main.34c23a7d.chunk.js",
+    "main.js.map": "/reward-Ads/static/js/main.34c23a7d.chunk.js.map",
     "runtime-main.js": "/reward-Ads/static/js/runtime-main.6d943616.js",
     "runtime-main.js.map": "/reward-Ads/static/js/runtime-main.6d943616.js.map",
     "static/js/2.b7d7b668.chunk.js": "/reward-Ads/static/js/2.b7d7b668.chunk.js",
     "static/js/2.b7d7b668.chunk.js.map": "/reward-Ads/static/js/2.b7d7b668.chunk.js.map",
     "index.html": "/reward-Ads/index.html",
-    "static/css/main.79f66069.chunk.css.map": "/reward-Ads/static/css/main.79f66069.chunk.css.map",
+    "static/css/main.5f39dc95.chunk.css.map": "/reward-Ads/static/css/main.5f39dc95.chunk.css.map",
     "static/js/2.b7d7b668.chunk.js.LICENSE.txt": "/reward-Ads/static/js/2.b7d7b668.chunk.js.LICENSE.txt",
     "static/media/Artboard 1.18f63dd8.png": "/reward-Ads/static/media/Artboard 1.18f63dd8.png",
     "static/media/Group 1.d3a67b2f.png": "/reward-Ads/static/media/Group 1.d3a67b2f.png",
     "static/media/Group 2.67e5362c.svg": "/reward-Ads/static/media/Group 2.67e5362c.svg",
-    "static/media/Group 3.40f75927.svg": "/reward-Ads/static/media/Group 3.40f75927.svg",
+    "static/media/Group 3.5ebfbe66.svg": "/reward-Ads/static/media/Group 3.5ebfbe66.svg",
     "static/media/Group 474.aab3b367.png": "/reward-Ads/static/media/Group 474.aab3b367.png",
     "static/media/Group 476.8b92a76c.png": "/reward-Ads/static/media/Group 476.8b92a76c.png",
     "static/media/Iconly-Two-tone-Calling.e52803e4.svg": "/reward-Ads/static/media/Iconly-Two-tone-Calling.e52803e4.svg",
@@ -22,12 +22,14 @@
     "static/media/Path 2539.38efe636.svg": "/reward-Ads/static/media/Path 2539.38efe636.svg",
     "static/media/Path 2541.aeee5da2.svg": "/reward-Ads/static/media/Path 2541.aeee5da2.svg",
     "static/media/Path 2553.03aa1102.svg": "/reward-Ads/static/media/Path 2553.03aa1102.svg",
+    "static/media/Path 2553@.1764ba27.svg": "/reward-Ads/static/media/Path 2553@.1764ba27.svg",
     "static/media/facebook.116fb67c.svg": "/reward-Ads/static/media/facebook.116fb67c.svg",
     "static/media/google-play-white.f70d5c0b.svg": "/reward-Ads/static/media/google-play-white.f70d5c0b.svg",
     "static/media/image-from-rawpixel-id-2051914-png.f3ef92c2.png": "/reward-Ads/static/media/image-from-rawpixel-id-2051914-png.f3ef92c2.png",
     "static/media/instagram.052ec6b3.svg": "/reward-Ads/static/media/instagram.052ec6b3.svg",
     "static/media/linkedin.d75b4051.svg": "/reward-Ads/static/media/linkedin.d75b4051.svg",
     "static/media/museums-victoria-RCuDCstVPvw-unsplash.825677aa.svg": "/reward-Ads/static/media/museums-victoria-RCuDCstVPvw-unsplash.825677aa.svg",
+    "static/media/player-stack.94b2ef70.svg": "/reward-Ads/static/media/player-stack.94b2ef70.svg",
     "static/media/player.6399b4b2.svg": "/reward-Ads/static/media/player.6399b4b2.svg",
     "static/media/rewardad-logo.28289152.svg": "/reward-Ads/static/media/rewardad-logo.28289152.svg",
     "static/media/rewardadz-blue.6450a6d9.svg": "/reward-Ads/static/media/rewardadz-blue.6450a6d9.svg",
@@ -36,7 +38,7 @@
   "entrypoints": [
     "static/js/runtime-main.6d943616.js",
     "static/js/2.b7d7b668.chunk.js",
-    "static/css/main.79f66069.chunk.css",
-    "static/js/main.ec269954.chunk.js"
+    "static/css/main.5f39dc95.chunk.css",
+    "static/js/main.34c23a7d.chunk.js"
   ]
 }
