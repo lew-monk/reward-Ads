@@ -16,7 +16,7 @@ import Group from "../Images/Group 1.png";
 
 const Banner = () => {
   return (
-    <div className="overflow-hidden w-screen">
+    <div className="overflow-hidden w-">
       {/* Holder for the logo */}
 
       <div className="ml-36 pt-6 w-4/12">

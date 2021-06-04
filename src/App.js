@@ -6,7 +6,7 @@ import Message from "./components/Message";
 
 function App() {
   return (
-    <div className="App w- relative overflow-x-hidden">
+    <div className="App relative overflow-x-hidden">
       {/* Start of the Banner section */}
 
       <div className="banner min-h-screen bg-hero-svg bg-no-repeat bg-cover">
